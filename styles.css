@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkolivegreen;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:crimson;
+    height: 600px;
+    width: 600px;
+}
+
+.container {
+    display: grid;
+    background-color: white;;
+    width: 400px;
+    height: 400px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+  }
