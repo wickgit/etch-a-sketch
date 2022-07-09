@@ -1,5 +1,6 @@
 const DEFAULT_SIZE = 16;
 let size = DEFAULT_SIZE;
+let mode = 'default';
 const container = document.querySelector('.container');
 
 
@@ -13,4 +14,11 @@ function makeRows(size) {
     };
   };
   
-  makeRows(size);
+makeRows(size);
+
+// Changes the background color for grid-items
+container.addEventListener('mouseover', (e) => {
+    if (e.target.classList.contains('grid-item')) {
+        e.target.style.backgroundColor = 'black';
+    }
+});
