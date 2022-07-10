@@ -10,20 +10,24 @@
 
 <body>
     
-    <div class="main">
-        <h1 id="title">Etch-a-sketch</h1>
+    <h1 id="title">Etch-a-sketch</h1>
+    <div class="display">
         <div class="menu">
             <div class="slider">
+                <label for="range">Size:</label>
                 <input id="range" type="range" name="size" value="16">
-                <p id="display"></p>
+                <p id="display">16</p>
             </div>
-            <button class="confirm" type="submit">Submit</button>
+            <div class="buttons">
+                <button id="eraser">Eraser</button>
+                <button id="default">Black</button>
+                <button id="clear">Clear</button>
+            </div>
         </div>
         <div class="container">
 
         </div>
-    </div>
-
+    </div>  
     <script src="javascript.js"></script>
 </body>
 
