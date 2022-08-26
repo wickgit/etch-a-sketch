@@ -1,2 +1,2 @@
 # etch-a-sketch
-s
+Live: https://wickgit.github.io/etch-a-sketch/
